@@ -1,0 +1,32 @@
+name: Publish tagged GrowthAgent X assets
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate release assets
+        run: |
+          test -f release-assets/GrowthAgent-X_*_universal.dmg
+          test -f release-assets/GrowthAgent-X.app.tar.gz
+          test -f release-assets/GrowthAgent-X.app.tar.gz.sig
+          test -f release-assets/beta.json
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: GrowthAgent X ${{ github.ref_name }}
+          body: GrowthAgent X macOS 安装包与自动更新文件。
+          prerelease: true
+          files: |
+            release-assets/GrowthAgent-X_*_universal.dmg
+            release-assets/GrowthAgent-X.app.tar.gz
+            release-assets/GrowthAgent-X.app.tar.gz.sig
+            release-assets/beta.json

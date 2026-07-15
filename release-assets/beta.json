@@ -1,0 +1,15 @@
+{
+  "version": "0.1.1",
+  "notes": "GrowthAgent X 0.1.1",
+  "pub_date": "2026-07-15T03:54:43.039Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSR29ONWRtY2pLSzU1UHQ0bHo5YjBwRHdMekNjM2JkVlFQNXNtcDFqTXE2WXM1bzl5Zlk4REplRDZrbUJVL2hhR2J1ZDl4TUdobkZjOThweWNVQmZXbUxYVHpYTGJUWVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDg3NjgyCWZpbGU6R3Jvd3RoQWdlbnQgWC5hcHAudGFyLmd6CnNXUTdXdllLeC9BNEhTdEhFdlNGN29ZdVZvMTRONnp2QStZdVhrWmZ3SGNjQW1wZUhISCt2Ri9tR1FlR3lraTJ3WlUyak85UTExRmIzbzI1WW00SERBPT0K",
+      "url": "https://github.com/river231-ux/GrowthAgent-App/releases/download/v0.1.1/GrowthAgent-X.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSR29ONWRtY2pLSzU1UHQ0bHo5YjBwRHdMekNjM2JkVlFQNXNtcDFqTXE2WXM1bzl5Zlk4REplRDZrbUJVL2hhR2J1ZDl4TUdobkZjOThweWNVQmZXbUxYVHpYTGJUWVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDg3NjgyCWZpbGU6R3Jvd3RoQWdlbnQgWC5hcHAudGFyLmd6CnNXUTdXdllLeC9BNEhTdEhFdlNGN29ZdVZvMTRONnp2QStZdVhrWmZ3SGNjQW1wZUhISCt2Ri9tR1FlR3lraTJ3WlUyak85UTExRmIzbzI1WW00SERBPT0K",
+      "url": "https://github.com/river231-ux/GrowthAgent-App/releases/download/v0.1.1/GrowthAgent-X.app.tar.gz"
+    }
+  }
+}
